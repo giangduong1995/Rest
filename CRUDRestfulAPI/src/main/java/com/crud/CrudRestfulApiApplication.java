@@ -9,5 +9,4 @@ public class CrudRestfulApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CrudRestfulApiApplication.class, args);
 	}
-
 }
