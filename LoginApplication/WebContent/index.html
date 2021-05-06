@@ -31,7 +31,7 @@
 		function myFunctionPost() {
 			var department = {
 				"departmentName" : "Java",
-				"numberOfEmployee" : "24",
+				"numberOfEmployee" : 24,
 				"manager" : "thuchv"
 			};
 			$.ajax({
@@ -39,7 +39,7 @@
 				type : "POST",
 				contentType: "application/json; charset=utf-8",
 				dataType: "json",
-				data: JSON.stringify({ Department: department }),
+				data: JSON.stringify(department),
 				success : function(result) {
 					console.log(result)
 				},
